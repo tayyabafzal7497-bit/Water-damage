@@ -1,0 +1,207 @@
+import type { Article } from "./types";
+
+export const articles: Article[] = [
+  {
+    slug: "first-24-hours-water-damage",
+    title: "The First 24 Hours After Water Damage: What to Do, in Order",
+    category: "Emergency guides",
+    status: "PUBLISHED",
+    seoTitle: "The First 24 Hours After Water Damage: What to Do, in Order",
+    metaDescription: "The first 24 hours after water damage decide most of the outcome: stay safe, stop the source if you can do so safely, document everything, and get drying started.",
+    answer: "The first 24 hours after water damage decide most of the outcome. In order: stay safe and do not enter water where electricity may be live; stop the water source if you can do so safely, from a dry place; document everything with photos before anything is moved; call your insurer and a water damage contractor; and get extraction and drying started as soon as it is safe. Materials that dry promptly can often be saved; materials that stay wet warp, swell, and develop odor.",
+    sections: [
+      {
+        heading: "Step 1: Stay safe",
+        body: ["If water may have reached outlets, wiring, or the electrical panel, do not step into the water — call emergency services or your utility and wait for professionals. Shut off the water supply and electricity only if you can do so safely, from a dry place, without stepping into standing water. Never enter a flooded area where electricity may be live, and call 911 for any dangerous situation.", "Keep children and pets out of the affected area, especially if the water came from outside or through a drain — floodwater and sewage water are treated as contaminated."],
+        list: ["Water near outlets or the panel: stay out, call for help", "Clean-water leak, dry access to the shutoff: turn the water off", "Flood or sewage water: treat as contaminated, keep everyone out"],
+      },
+      {
+        heading: "Step 2: Document everything before it moves",
+        body: ["Photograph the water level, the water source, every affected room, and every damaged item, before anything is moved or thrown away. A video walkthrough with the date noted is even better. This record is what your insurer and your contractor work from, and it is much harder to reconstruct after cleanup.", "Note the time you discovered the water, what you did, and who you called. If a pipe burst, note where; if a flood, note how high the water reached — the mud line on the wall is the high-water mark."],
+      },
+      {
+        heading: "Step 3: Call your insurer and a contractor",
+        body: ["Call your insurer early to open the claim and ask what they need documented. Then call a water damage contractor for extraction and drying — the work that prevents further damage should not wait for the adjuster's visit. A good contractor inspects, measures moisture, and quotes extraction, drying, and repair in writing.", "Ask the contractor what to keep for the claim and what can be removed. Do not throw away damaged items before they are inventoried and photographed."],
+      },
+      {
+        heading: "Step 4: Get drying started, and do not finish over wet materials",
+        body: ["Extraction and measured drying should begin as soon as it is safe. Drying runs until moisture readings reach the dry standard, not until surfaces feel dry. Do not install new flooring, drywall, or paint over materials that have not been measured — finishes over wet materials trap moisture and guarantee a second job."],
+      },
+    ],
+    services: ["water-damage-restoration", "flood-cleanup", "structural-drying-dehumidification"],
+    relatedArticles: ["burst-pipe-steps", "insurance-claims-water-damage"],
+    photo: "/photos/hero.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+  {
+    slug: "burst-pipe-steps",
+    title: "Burst Pipe: The Steps to Take Before the Contractor Arrives",
+    category: "Emergency guides",
+    status: "PUBLISHED",
+    seoTitle: "Burst Pipe: The Steps to Take Before the Contractor Arrives",
+    metaDescription: "When a pipe bursts: shut the water off if it is safe to do so, stay out of water near electricity, document the damage, and call a contractor and your insurer.",
+    answer: "When a pipe bursts: shut off the main water supply if you can do so safely, from a dry place, without stepping into standing water; stay out of any room where water reaches outlets or the electrical panel; photograph the damage and the burst point; move dry belongings out of the wet area; and call a water damage contractor and your insurer. Do not turn the water back on before the failed section is repaired.",
+    sections: [
+      {
+        heading: "Shut the water off — safely",
+        body: ["The main shutoff is usually near the water meter, in a utility room, or where the supply enters the house. If you can reach it from a dry place, turn it off. If the water has reached outlets or the panel, or the shutoff itself is in standing water, stay out and call for help instead — no shutoff is worth an electrical injury.", "Once the water is off, open a low faucet to drain the remaining pressure from the lines, and note where the burst happened: which pipe, which room, and what it supplies."],
+      },
+      {
+        heading: "Protect people and belongings",
+        body: ["Move dry belongings out of the wet area and place a bucket under any active drip. Do not power on electronics that got wet, and do not walk on a ceiling that is sagging under pooled water — it can collapse. Keep children and pets out of the wet rooms until a contractor confirms they are safe."],
+      },
+      {
+        heading: "Document, then call",
+        body: ["Photograph the burst point, the water level, every affected room, and every damaged item before anything is moved. Then call a water damage contractor for extraction and drying, and your insurer to open the claim. The contractor will map moisture in walls, ceilings, and floors — including rooms below the break — before quoting the drying and repair scope."],
+      },
+      {
+        heading: "What not to do",
+        body: ["Do not turn the water back on before the failed section is repaired. Do not cut into walls or ceilings near wiring or plumbing to find the break. Do not dry with fans on circuits that may be wet, and do not paint over a stain before the area is dry and the leak is fixed — the stain will return."],
+        list: ["Do not re-pressurize the system before repair", "Do not cut into walls near wiring or plumbing", "Do not run fans on wet circuits", "Do not paint over a wet stain"],
+      },
+    ],
+    services: ["burst-pipe-water-removal", "water-damage-restoration", "structural-drying-dehumidification"],
+    relatedArticles: ["first-24-hours-water-damage", "how-structural-drying-works"],
+    photo: "/photos/concrete-floor.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+  {
+    slug: "flood-vs-leak-damage",
+    title: "Flood Damage vs Leak Damage: Why the Source Changes the Whole Job",
+    category: "Comparison guides",
+    status: "PUBLISHED",
+    seoTitle: "Flood Damage vs Leak Damage: Why the Source Changes the Whole Job",
+    metaDescription: "Flood damage and leak damage look alike but are handled differently: floodwater is treated as contaminated, leak water usually starts clean, and the source decides the scope.",
+    answer: "Flood damage and leak damage look alike but are handled differently. Floodwater — water that entered from outside, through streets, rivers, or storm surge — is treated as contaminated, so cleanup requires protective equipment and removal of porous materials it touched. Leak water from a pipe or appliance starts clean, so more materials can be dried in place. In both cases the source must be stopped before drying, and drying must be measured, not guessed.",
+    sections: [
+      {
+        heading: "What counts as floodwater",
+        body: ["Floodwater is water that entered from outside the building: storm surge, river overflow, street flooding, or heavy rain entering through doors, windows, and low entries. It can carry sewage, chemicals, fuel, and debris from streets and yards, which is why it is treated as contaminated even when it looks clear.", "Water that rises through a floor drain during a storm is also treated as contaminated, because it comes from the sewer system rather than from inside the house."],
+      },
+      {
+        heading: "What counts as leak water",
+        body: ["Leak water comes from inside: a burst pipe, a failed appliance hose, a roof leak, or a plumbing joint. Supply-line water starts clean, so walls, floors, and contents that it touched can often be dried and cleaned in place. But once clean water runs through insulation, wall cavities, and flooring, it picks up contaminants, so the contractor still cleans and dries thoroughly.", "The distinction matters for scope and insurance: flood damage and leak damage are often covered differently, and the contractor's documentation should name the source plainly."],
+      },
+      {
+        heading: "How the cleanup differs",
+        body: ["Flood cleanup starts with containment and protective equipment, removes mud and debris, removes porous materials the floodwater touched, and then dries and sanitizes what remains. Leak cleanup starts with stopping the source, extracts the water, maps moisture, and dries — with more materials saved in place.", "Both jobs end the same way: drying until moisture readings reach the dry standard, documented with photos and readings for the insurance claim."],
+        list: ["Floodwater: contaminated — protective equipment, porous materials removed", "Leak water: starts clean — more materials dried in place", "Both: source stopped first, drying measured, work documented"],
+      },
+      {
+        heading: "How to tell which one you have",
+        body: ["Ask where the water came from. If it came from outside, from the street, or up through a drain, treat it as flood or sewage water and stay out of it. If it came from a pipe, appliance, or roof inside the building, it is leak water — but if it sat long enough to pick up contaminants, or if it mixed with drain water, the contractor should treat it accordingly. When in doubt, treat it as contaminated and let the contractor decide."],
+      },
+    ],
+    services: ["flood-cleanup", "water-damage-restoration", "sewage-backup-cleanup"],
+    relatedArticles: ["first-24-hours-water-damage", "insurance-claims-water-damage"],
+    photo: "/photos/exterior.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+  {
+    slug: "how-structural-drying-works",
+    title: "How Structural Drying Works: Readings, Not Guesswork",
+    category: "Process guides",
+    status: "PUBLISHED",
+    seoTitle: "How Structural Drying Works: Readings, Not Guesswork",
+    metaDescription: "Structural drying works by measurement: air movers, dehumidifiers, and moisture meters track walls, floors, and cavities until they reach their dry standard.",
+    answer: "Structural drying works by measurement, not by feel. Air movers push dry air across wet surfaces, dehumidifiers pull moisture out of the air, and moisture meters track walls, floors, and cavities until they reach their dry standard. A surface that feels dry can still be wet inside — which is why readings, not touch, decide when drying is done.",
+    sections: [
+      {
+        heading: "Why surfaces lie",
+        body: ["Wood, drywall, and insulation all hold water below the surface. A wall can feel dry to the hand while the cavity behind it is still wet, and a floor can look dry while the subfloor underneath is soaked. Finishes installed over that hidden moisture trap it, and the damage continues out of sight.", "That is why a drying plan starts with moisture mapping: every affected material is measured, and the dry standard for each material — the moisture level of a comparable dry material in the same home — is recorded as the target."],
+      },
+      {
+        heading: "The equipment, and what each piece does",
+        body: ["Air movers are not household fans: they push a focused stream of dry air across wet surfaces, speeding evaporation. Dehumidifiers pull the evaporated moisture out of the air, so the air stays dry enough for more moisture to leave the materials. Without dehumidification, the air saturates and drying stalls, however many fans are running.", "In humid climates, dehumidification must work against moist outside air, so equipment runs longer and readings are checked more often. That is normal, not a sign of a problem — it is the plan adjusting to conditions."],
+      },
+      {
+        heading: "Daily readings and adjustments",
+        body: ["A contractor takes readings daily. If a material is drying, the plan continues. If it is not, the plan changes: airflow is redirected, a wall cavity is opened so air can reach it, or a material that cannot be dried is removed. A drying job that never changes its plan is not being managed.", "Drying ends when readings reach the dry standard, not when a set number of days has passed. Ask to see the readings — a contractor who tracks them should be glad to show them."],
+      },
+      {
+        heading: "What drying does not do",
+        body: ["Drying does not repair damage that has already set in — warped floors, swollen baseboards, and crumbling drywall still need repair after they are dry. And drying does not replace the source fix: a pipe, roof entry, or drainage problem that is not repaired will wet the same materials again. Drying is the middle of the job, between stopping the water and repairing the finishes."],
+      },
+    ],
+    services: ["structural-drying-dehumidification", "water-damage-restoration", "contents-drying-cleaning"],
+    relatedArticles: ["first-24-hours-water-damage", "burst-pipe-steps"],
+    photo: "/photos/house.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+  {
+    slug: "insurance-claims-water-damage",
+    title: "Insurance Claims for Water Damage: The Process, Step by Step",
+    category: "Process guides",
+    status: "PUBLISHED",
+    seoTitle: "Insurance Claims for Water Damage: The Process, Step by Step",
+    metaDescription: "How a water damage insurance claim works: document first, start emergency drying, meet the adjuster, and keep every record — with no coverage promises.",
+    answer: "A water damage insurance claim follows a process, and following it in order protects the claim: document everything with photos before anything is moved; start the emergency work that prevents further damage — water removal and drying — without waiting for the adjuster; keep every receipt, reading, and inventory; meet the adjuster with your documentation ready; and get repair scopes in writing. What your policy covers depends on your policy and the water source — this guide describes the process only, and makes no promise about any coverage.",
+    sections: [
+      {
+        heading: "Step 1: Document before anything moves",
+        body: ["Photograph the water level, the water source, every affected room, and every damaged item before cleanup begins. Take a video walkthrough with the date noted. List damaged items with their condition and approximate age. This record is the foundation of the claim, and it is much harder to build after materials are removed.", "Do not throw away damaged items before they are inventoried and photographed, unless they pose a health risk — and if you must dispose of something for safety, photograph it first and note why."],
+      },
+      {
+        heading: "Step 2: Start emergency work, and tell your insurer",
+        body: ["Call your insurer promptly to open the claim and ask what they need. Then start the work that prevents further damage — extraction and drying — without waiting for the adjuster. Waiting while materials stay wet usually makes the damage worse, and insurers generally expect emergency mitigation to begin promptly.", "Keep every receipt and every contractor document: moisture readings, photos, the written scope, and the inventory. The contractor's documentation is part of your claim file."],
+      },
+      {
+        heading: "Step 3: Meet the adjuster with your file ready",
+        body: ["When the adjuster visits, have your photos, inventory, receipts, and contractor scope ready, and walk them through the same rooms in the same order. Note what the adjuster says about the source, the covered scope, and any exclusions, and ask for their findings in writing.", "If the adjuster's scope and the contractor's scope differ, ask both to explain the difference in writing. A scope difference is common and is resolved with documentation, not with argument."],
+      },
+      {
+        heading: "What coverage depends on — and what this guide does not promise",
+        body: ["Coverage depends on your policy, the water source, and the cause: sudden pipe bursts, roof leaks, and appliance failures are often treated differently from floodwater, sewer backup, and long-term leaks. Flood damage is commonly covered only under a separate flood policy, and sewer backup often requires a separate endorsement. This guide describes the claim process only — it does not promise that any particular damage, source, or cost will be covered, and you should confirm your own coverage with your insurer."],
+        list: ["Sudden pipe or appliance leaks: often treated differently from floodwater", "Floodwater: commonly requires a separate flood policy", "Sewer backup: often requires a separate endorsement", "Long-term or unmaintained leaks: commonly excluded — check your policy"],
+      },
+    ],
+    services: ["water-damage-restoration", "flood-cleanup", "contents-drying-cleaning"],
+    relatedArticles: ["first-24-hours-water-damage", "paying-water-damage-repairs-financing"],
+    photo: "/photos/basement-room.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+  {
+    slug: "paying-water-damage-repairs-financing",
+    title: "Paying for Water Damage Repairs: General Options",
+    category: "Cost guides",
+    status: "PUBLISHED",
+    seoTitle: "Paying for Water Damage Repairs: General Options",
+    metaDescription: "How homeowners generally pay for water damage repairs: insurance claims, savings, payment plans, and financing options in general terms — no loan products, rates, or approvals promised.",
+    answer: "Homeowners generally pay for water damage repairs in a few ways: through an insurance claim, from savings, through a payment plan agreed with the contractor, or through a general financing option such as a home equity product, a personal loan, or a credit card — each with its own terms, costs, and risks. This guide describes those options in general terms only. Water Damage Loan is not a lender, does not offer any loan product, does not promise approval or any interest rate, and has no lender partnership. Any financing decision should be made with the lender's own written terms in front of you, and with independent advice where the sums are large.",
+    sections: [
+      {
+        heading: "Start with the claim, and with a written scope",
+        body: ["Before deciding how to pay, get two things: the contractor's written scope, itemized by phase — emergency work, drying, and repair — and your insurer's written position on what is covered. The gap between those two documents is the amount you need to fund from another source, and it is usually smaller than the total job once the claim is applied.", "Ask the contractor whether the work can be phased: emergency extraction and drying first, then repairs. Phasing spreads the cost over time and lets the insurance process catch up with the repair phase."],
+      },
+      {
+        heading: "Insurance first, then savings and payment plans",
+        body: ["An insurance claim is the first funding source for most sudden water damage, where the policy covers the source. For the uncovered balance, savings are the simplest option — no interest, no application, no risk to the home. Some contractors offer payment plans for repair work; if one is offered, get its terms in writing — the schedule, any fees, and what happens if a payment is late — before agreeing.", "Be cautious about any plan that asks for the full amount up front. Payment terms vary by contractor, but paying in phases tied to completed work is the safer pattern."],
+      },
+      {
+        heading: "General financing options, described in general terms",
+        body: ["Homeowners who need to borrow generally consider a few kinds of product, each with different trade-offs. A home equity loan or line of credit uses the home as security, which can mean lower rates but puts the home at risk if payments are missed. A personal loan is usually unsecured, which can mean higher rates and shorter terms. A credit card can bridge a small, short gap, but its rates are usually the highest of the three. Contractor-offered financing, where it exists, is arranged through a third-party lender, not through the contractor or through Water Damage Loan, and its terms come from that lender.", "No option here is recommended over another, and no rate, approval, or term is promised. Compare the total cost of borrowing — interest plus fees, over the full term — not just the monthly payment, and read the lender's written terms before signing anything."],
+        list: ["Home equity products: secured against the home, generally lower rates, home at risk if payments are missed", "Personal loans: usually unsecured, generally higher rates and shorter terms", "Credit cards: useful for a small, short gap, usually the highest rates", "Contractor-offered financing: arranged through a third-party lender, terms from that lender"],
+      },
+      {
+        heading: "Questions to ask before borrowing",
+        body: ["Before signing any financing agreement, ask: What is the total cost, including interest and fees, over the full term? Is the rate fixed or variable? What happens if a payment is late or missed? Is the loan secured against the home? And can the work be phased so that less needs to be borrowed? If any answer is unclear, ask the lender to put it in writing, and consider independent financial advice for large sums.", "Finally, be wary of anyone who guarantees financing, promises approval, or pressures you to sign before the insurance claim is decided. A legitimate lender states its terms in writing and lets you compare them."],
+      },
+    ],
+    services: ["water-damage-restoration", "structural-drying-dehumidification", "contents-drying-cleaning"],
+    relatedArticles: ["insurance-claims-water-damage", "first-24-hours-water-damage"],
+    photo: "/photos/foundation-work.jpg",
+    published: "2026-11-04",
+    updated: "2026-11-04",
+    reviewedBy: null,
+  },
+];
